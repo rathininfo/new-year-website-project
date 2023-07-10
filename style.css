@@ -67,8 +67,43 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 140px 320px 130px 230px;
+    margin: 140px 322px 130px 230px;
     gap: 134px;
 }
 
+.banner-image{
+    width: 450px;
+}
+
+.banner-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.banner-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.inportant-marking-list{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.inportant-marking-list ul li{
+    list-style: none;
+}
+
+.inportant-marking-list ul li i{
+   color: #16D887;
+   font-size: 16px;
+   margin-right: 10px;
+}
 /* end company brief style start */
